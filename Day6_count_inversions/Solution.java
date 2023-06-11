@@ -1,7 +1,5 @@
 package Day6_count_inversions;
 
-import java.util.*;
-import java.io.*;
 
 public class Solution {
     public static long getInversions(long arr[], int n) {

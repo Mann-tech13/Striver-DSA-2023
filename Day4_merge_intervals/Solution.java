@@ -1,7 +1,6 @@
 package Day4_merge_intervals;
 
 import java.util.*;
-import java.io.*;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -24,7 +23,7 @@ public class Solution {
                 return interval1.start - interval2.start;
             }
         });
-        ArrayList<Interval> merged = new ArrayList();
+        ArrayList<Interval> merged = new ArrayList<>();
         for (Interval interval : intervals) {
             if (merged.size() == 0) {
                 merged.add(interval);
