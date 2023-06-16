@@ -1,3 +1,5 @@
+package Day11_delete_k_node_from_end;
+
 class Node {
      public int data;
      public Node next;
